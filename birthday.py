@@ -21,7 +21,7 @@ def get_birthdays_per_week(users):
     }
 
     today = datetime.now() 
-    # today = datetime(year=1995, month=4, day=24)
+    # today = datetime(year=1995, month=4, day=19)
     start_of_weekend_day = today - timedelta(days = 2)
     end_of_weekday = today + timedelta(days = 4 - today.weekday())
     for item in users:
